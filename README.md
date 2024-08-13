@@ -1,5 +1,5 @@
 # MathExpress
-> Work 🔪 🔪 🔪! -Employer
+> Work! 🔪 🔪 🔪 -Employer
 ## Feautures
 - Horrendous <br />
 - Use any positive integer you want. (Only positive integers... or else)<br />
