@@ -6,3 +6,7 @@ lib: [
 bin: [
   "_build/install/default/bin/MathExpress"
 ]
+doc: [
+  "_build/install/default/doc/MathExpress/LICENSE"
+  "_build/install/default/doc/MathExpress/README.md"
+]

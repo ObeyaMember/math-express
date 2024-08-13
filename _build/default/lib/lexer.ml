@@ -26,21 +26,21 @@ let rec print_token_list l =
 
 let get_token a = 
   match a with
-  | "1" -> print_endline a;TokenInt a
-  | "2" -> print_endline a;TokenInt a
-  | "3" -> print_endline a;TokenInt a
-  | "4" -> print_endline a;TokenInt a
-  | "5" -> print_endline a;TokenInt a
-  | "6" -> print_endline a;TokenInt a
-  | "7" -> print_endline a;TokenInt a
-  | "8" -> print_endline a;TokenInt a
-  | "9" -> print_endline a;TokenInt a
-  | "0" -> print_endline a;TokenInt a
-  | "+" -> print_endline a;BinaryOper a
-  | "-" -> print_endline a;BinaryOper a
-  | "*" -> print_endline a;BinaryOper a
-  | "/" -> print_endline a;BinaryOper a 
-  | " " -> print_endline "Space";TokenSpace
+  | "1" -> (* print_endline a; *)TokenInt a
+  | "2" -> (* print_endline a; *)TokenInt a
+  | "3" -> (* print_endline a; *)TokenInt a
+  | "4" -> (* print_endline a; *)TokenInt a
+  | "5" -> (* print_endline a; *)TokenInt a
+  | "6" -> (* print_endline a; *)TokenInt a
+  | "7" -> (* print_endline a; *)TokenInt a
+  | "8" -> (* print_endline a; *)TokenInt a
+  | "9" -> (* print_endline a; *)TokenInt a
+  | "0" -> (* print_endline a; *)TokenInt a
+  | "+" -> (* print_endline a; *)BinaryOper a
+  | "-" -> (* print_endline a; *)BinaryOper a
+  | "*" -> (* print_endline a; *)BinaryOper a
+  | "/" -> (* print_endline a; *)BinaryOper a 
+  | " " -> (* print_endline "Space"; *)TokenSpace
   | _ -> raise (Failure "Invalid token given.")
 
 let is_token_int toke = 
