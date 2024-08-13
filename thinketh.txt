@@ -1,0 +1,15 @@
+10 + 15 * 25
+10 +(15 * 25)
+
+10 * 25 + 70
+[[10 * 25] + 70]
+
+15 + 25 * 86 + 96
+[15 + [[25 * 86] + 96]]
+
+12 * 78 / 52
+[12 * 78] / 52
+
+[13 / 15] * 5
+
+TokenInt 126; BinaryOper +; TokenInt 76; BinaryOper -; TokenInt 257; BinaryOper /; TokenInt 98;

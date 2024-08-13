@@ -1,0 +1,27 @@
+-> Infix notation vs Postfix (RPN: Reverse Polish Notation)
+-> I'll do Infix cuz otherwise too easy
+
+-> Lexer/ tokenizer: grammar to tokens
+-> Parser: tokens to structure (RPN or AST)
+  -> uses rules such as operator precedence
+  -> Recursive Descent Parsers/ Top down
+-> Evaluator: structure to result
+  -> depth-first evaluation of AST nodes
+
+-> Grammar: describes structure of language
+  -> 	expr -> term + term
+	term -> factor * factor 
+	factor -> number
+  -> term: stands for terminal as it is something the user sees
+
+-> EBNF: Extended Backus-Naur Form
+<expr>   := <term> {("+" | "-") <term>}
+
+<term>   := number {("*" | "/") number}
+
+names are in <>
+:= "is"
+
+-----------------------------------------------------------
+
+

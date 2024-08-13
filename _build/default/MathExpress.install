@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/MathExpress/META"
+  "_build/install/default/lib/MathExpress/dune-package"
+  "_build/install/default/lib/MathExpress/opam"
+]
+bin: [
+  "_build/install/default/bin/MathExpress"
+]
